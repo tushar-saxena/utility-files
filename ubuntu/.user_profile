@@ -1,0 +1,14 @@
+# aliases
+alias run='./gradlew bootRun'
+alias runc='./gradlew clean bootRun'
+export TODOTXT_DEFAULT_ACTION=ls
+alias t='todo-txt -d ~/todo.cfg'
+alias postman="nohup /opt/Postman/Postman &"
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+
+#Env Variables
+export SDKMAN_DIR="/home/tushar/.sdkman"
+[[ -s "/home/tushar/.sdkman/bin/sdkman-init.sh" ]] && source "/home/tushar/.sdkman/bin/sdkman-init.sh"
+export JAVA_HOME="/home/tushar/.sdkman/candidates/java/current"
