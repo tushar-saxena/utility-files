@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="Maven">
+  <template name="pl" value="&lt;plugin&gt;&#10;   &lt;groupId&gt;$GROUP$&lt;/groupId&gt;&#10;   &lt;artifactId&gt;$ARTIFACT$&lt;/artifactId&gt;&#10;   &lt;version&gt;$VERSION$&lt;/version&gt;&#10;&lt;/plugin&gt;" description="plugin" toReformat="true" toShortenFQNames="false">
+    <variable name="ARTIFACT" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="GROUP" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
+

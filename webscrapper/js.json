@@ -1,15 +1,39 @@
 {
-  "_id": "main_jeev",
+  "_id": "all_js",
   "startUrl": [
-    "https://www.jeevansathi.com/profile/viewprofile.php?profilechecksum=2bd065fcc0108e882efc3cc56b55c1d3i20766805&total_rec=98&actual_offset=1&contact_id=21847727_ACCEPTANCES_SENT&contact=SENDER&self=RECEIVER&self_profileid=21847727&flag=A&type=M&page=accept&&tupleId=1&fromPage=contacts&NAVIGATOR=8e53e75cc05171c268528edf12fdebc8"
+    "https://www.jeevansathi.com/inbox/2/1",
+    "https://www.jeevansathi.com/inbox/2/2",
+    "https://www.jeevansathi.com/inbox/2/3",
+    "https://www.jeevansathi.com/inbox/2/4",
+    "https://www.jeevansathi.com/inbox/2/5",
+    "https://www.jeevansathi.com/inbox/2/6",
+    "https://www.jeevansathi.com/inbox/2/7",
+    "https://www.jeevansathi.com/inbox/2/8",
+    "https://www.jeevansathi.com/inbox/3/1",
+    "https://www.jeevansathi.com/inbox/3/2",
+    "https://www.jeevansathi.com/inbox/3/3",
+    "https://www.jeevansathi.com/inbox/3/4",
+    "https://www.jeevansathi.com/inbox/3/5",
+    "https://www.jeevansathi.com/inbox/3/6",
+    "https://www.jeevansathi.com/inbox/3/7",
+    "https://www.jeevansathi.com/inbox/3/8"
   ],
   "selectors": [
     {
-      "id": "NAME",
+      "id": "Profile Link",
+      "type": "SelectorLink",
+      "parentSelectors": [
+        "_root"
+      ],
+      "selector": ".js-hmin a",
+      "multiple": true,
+      "delay": 0
+    },
+    {
+      "id": "Name",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "span.fixWidthOverflow",
       "multiple": false,
@@ -20,8 +44,7 @@
       "id": "PROFILE_ID",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "span.f15",
       "multiple": false,
@@ -32,8 +55,7 @@
       "id": "AGE_AND_HEIGHT",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li.textTru:nth-of-type(1)",
       "multiple": false,
@@ -44,8 +66,7 @@
       "id": "LOCATION",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li.textTru:nth-of-type(3)",
       "multiple": false,
@@ -56,8 +77,7 @@
       "id": "SUBCASTE",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li.textTru:nth-of-type(5)",
       "multiple": false,
@@ -68,8 +88,7 @@
       "id": "EDUCATION",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li.textTru:nth-of-type(2)",
       "multiple": false,
@@ -80,8 +99,7 @@
       "id": "OCCUPATION",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li.textTru:nth-of-type(4)",
       "multiple": false,
@@ -92,8 +110,7 @@
       "id": "INCOME",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li.textTru:nth-of-type(6)",
       "multiple": false,
@@ -104,8 +121,7 @@
       "id": "BIRTH_PLACE",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li:nth-of-type(1) p.pt6",
       "multiple": false,
@@ -116,8 +132,7 @@
       "id": "DOB",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": ".prfp12 > ul li:nth-of-type(2) p.color11",
       "multiple": false,
@@ -128,8 +143,7 @@
       "id": "BIRTH_TIME",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": ".prfp12 > ul li:nth-of-type(3) p.color11",
       "multiple": false,
@@ -140,8 +154,7 @@
       "id": "DOSHAM",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "li:nth-of-type(5) p.color11",
       "multiple": false,
@@ -152,23 +165,11 @@
       "id": "SCORE",
       "type": "SelectorText",
       "parentSelectors": [
-        "_root",
-        "link"
+        "Profile Link"
       ],
       "selector": "span.js-showGuna",
       "multiple": false,
       "regex": "",
-      "delay": 0
-    },
-    {
-      "id": "link",
-      "type": "SelectorLink",
-      "parentSelectors": [
-        "_root",
-        "link"
-      ],
-      "selector": "a#show_nextListingProfile",
-      "multiple": false,
       "delay": 0
     }
   ]

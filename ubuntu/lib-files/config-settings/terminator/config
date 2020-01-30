@@ -1,0 +1,25 @@
+[global_config]
+  suppress_multiple_term_dialog = True
+[keybindings]
+  cycle_prev = <Primary><Shift>space
+  next_tab = <Primary>Tab
+  split_horiz = <Alt>h
+  prev_tab = <Primary><Shift>Tab
+  cycle_next = <Primary>space
+  edit_window_title = F2
+  split_vert = <Alt>v
+  copy = <Primary>c
+  paste = <Primary>v
+[profiles]
+  [[default]]
+    scrollback_lines = 50000
+    background_image = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

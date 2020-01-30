@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keymap version="1" name="intelligrape" parent="$default">
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="alt X" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="control F1" />
+  </action>
+  <action id="CloseAllUnmodifiedEditors">
+    <keyboard-shortcut first-keystroke="shift alt U" />
+  </action>
+  <action id="Diff.FocusOppositePane" />
+  <action id="EditorScrollDown" />
+  <action id="EditorScrollUp" />
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="shift control O" />
+  </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="control alt F" />
+  </action>
+  <action id="FindNext" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="control alt 7" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift control N" />
+    <keyboard-shortcut first-keystroke="shift control R" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="control L" />
+  </action>
+  <action id="GotoTypeDeclaration">
+    <keyboard-shortcut first-keystroke="shift control B" />
+    <mouse-shortcut keystroke="shift control button1" />
+    <mouse-shortcut keystroke="shift button2" />
+    <keyboard-shortcut first-keystroke="F3" />
+  </action>
+  <action id="GuiDesigner.CreateListener" />
+  <action id="GuiDesigner.QuickJavadoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="IntroduceField" />
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="shift control BACK_SPACE" />
+    <keyboard-shortcut first-keystroke="control Q" />
+  </action>
+  <action id="MethodDown" />
+  <action id="MethodHierarchy.OverrideMethodAction" />
+  <action id="MoveStatementDown">
+    <keyboard-shortcut first-keystroke="shift control DOWN" />
+    <keyboard-shortcut first-keystroke="control DOWN" />
+  </action>
+  <action id="MoveStatementUp">
+    <keyboard-shortcut first-keystroke="shift control UP" />
+    <keyboard-shortcut first-keystroke="control UP" />
+  </action>
+  <action id="NextSplitter" />
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="control O" />
+  </action>
+  <action id="OrigGenerateGetterAndSetter">
+    <keyboard-shortcut first-keystroke="control G" />
+  </action>
+  <action id="OverrideMethods" />
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="control alt L" />
+    <keyboard-shortcut first-keystroke="shift control F" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift F6" />
+    <keyboard-shortcut first-keystroke="shift alt R" />
+  </action>
+  <action id="ReplaceInPath" />
+  <action id="ShowContent" />
+  <action id="ShowErrorDescription" />
+  <action id="ShowUsages">
+    <keyboard-shortcut first-keystroke="control alt F7" />
+    <keyboard-shortcut first-keystroke="shift control G" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt UP" />
+  </action>
+  <action id="TestGestureAction" />
+  <action id="ToggleContentUiTypeMode">
+    <keyboard-shortcut first-keystroke="control TAB" />
+  </action>
+  <action id="ToolWindowSwitcher">
+    <keyboard-shortcut first-keystroke="shift control TAB" />
+  </action>
+</keymap>
+
